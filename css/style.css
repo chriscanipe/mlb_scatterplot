@@ -1,6 +1,39 @@
 
 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000000;
+  shape-rendering: crispEdges;
+}
+.teamClass{
+	cursor:pointer;
+}
+.teamLabel{
+	font-family: Helvetica, sans-serif;
+	font-size:10px;
+	text-anchor:middle;
+	fill:green;
+
+}
+
+.teamClass circle:hover {
+	fill:orange !important;
+}
+
 
 .chart {
   height: 500px;
 }
+
+.year-label {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
